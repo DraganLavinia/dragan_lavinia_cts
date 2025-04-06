@@ -1,5 +1,6 @@
 import Builder.Phone;
 import Builder.PhoneBuilder;
+import Prototype.SistemOperare;
 import Singletons.ConexiuneGSMLazy;
 import Singletons.ConexiuneGSMRegistry;
 import Singletons.IGSMInterface;
@@ -30,6 +31,11 @@ public class Main {
         ConexiuneGSMRegistry instanta2 = ConexiuneGSMRegistry.getinstance("PRIORITARE");
         System.out.printf("------------------------------------------------------\n");
 
-        //
+        //prototype
+        SistemOperare so1 = new SistemOperare("Sistem operare 1", " Versiunea7");
+        SistemOperare so2 = so1.clone();
+
+         so1.print();
+         so2.print();
     }
 }
