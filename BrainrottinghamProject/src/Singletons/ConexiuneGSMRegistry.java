@@ -6,7 +6,7 @@ public class ConexiuneGSMRegistry implements IGSMInterface{
 
     private static HashMap<String, ConexiuneGSMRegistry> instances = new HashMap<>();
 
-    public ConexiuneGSMRegistry(String tipConexiune) {
+    private ConexiuneGSMRegistry(String tipConexiune) {
         System.out.println("s-a creat instanta la singleton registry de tipul " + tipConexiune);
     }
 
