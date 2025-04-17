@@ -1,0 +1,32 @@
+[
+    {
+        "denumire": "Informatica Economica",
+        "medie": 8.5275,
+        "cod specializare": 1,
+        "numar inscrieri": 4
+    },
+    {
+        "denumire": "Cibernetica",
+        "medie": 10,
+        "cod specializare": 2,
+        "numar inscrieri": 2
+    },
+    {
+        "denumire": "Statistica",
+        "medie": 9.9,
+        "cod specializare": 3,
+        "numar inscrieri": 1
+    },
+    {
+        "denumire": "Marketing",
+        "medie": 8.47,
+        "cod specializare": 4,
+        "numar inscrieri": 1
+    },
+    {
+        "denumire": "Contabilitate",
+        "medie": 8.315,
+        "cod specializare": 5,
+        "numar inscrieri": 2
+    }
+]
